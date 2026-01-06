@@ -1,135 +1,42 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <title>EVAI</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>EVAI — Enterprise Vehicle Architecture Intelligence</title>
-<link rel="canonical" href="https://evaifleetintel.com/" />
-
-  <meta name="description" content="EVAI defines the Translation Layers for vehicle and fleet architectures, enabling phased visibility and alignment windows without disrupting first-layer systems." />
-
-  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://evaifleetintel.com/" />
 
   <style>
-    :root {
-      --bg: #0b0e14;
-      --text: #e6e8eb;
-      --muted: #9aa3ad;
+    @font-face {
+      font-family: "Alpino";
+      src: url("fonts/Alpino-Medium.otf") format("opentype");
     }
 
-    * {
-      box-sizing: border-box;
+    @font-face {
+      font-family: "Synonym";
+      src: url("fonts/Synonym-Regular.otf") format("opentype");
     }
 
     body {
       margin: 0;
-      padding: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
+      background: #f4f3ef;
+      color: #0f1f33;
+      font-family: "Synonym", serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
 
-    .container {
-      max-width: 920px;
-      margin: 0 auto;
-      padding: 64px 24px;
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
     }
 
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.5rem;
-      letter-spacing: 0.4px;
-    }
-
-    h2 {
-      font-size: 1.4rem;
-      margin-top: 3rem;
-      margin-bottom: 0.75rem;
-    }
-
-    p {
-      font-size: 1rem;
-      color: var(--muted);
-      margin-bottom: 1.25rem;
-    }
-
-    .subhead {
-      font-size: 1rem;
-      margin-bottom: 2rem;
-      color: var(--text);
-    }
-
-    footer {
-      margin-top: 5rem;
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
-  </style>
-</head>
-
-<body>
-  <main class="container">
-
-    <h1>EVAI</h1>
-    <div class="subhead">
-      Enterprise Vehicle Architecture Intelligence<br />
-      Translation Layers · Phased Reveal · Active Alignment Windows
-    </div>
-
-    <p>
-      EVAI defines a translation layer operating alongside existing vehicle and fleet architectures.
-      Rather than replacing or interrupting first-layer systems, EVAI interprets what those systems
-      already generate, enabling second-layer observation without interference.
-    </p>
-
-    <p>
-      Modern vehicle platforms produce continuous telemetry across increasingly complex systems.
-      While data volume continues to grow, visibility often plateaus. EVAI focuses on interpretation,
-      alignment, and timing, allowing signal to emerge where direct observation alone is insufficient.
-    </p>
-
-    <h2>The Translation Layer</h2>
-
-    <p>
-      First-layer systems are designed for operation, control, and compliance. EVAI operates in
-      parallel, translating existing signals into coherent observations without altering system
-      behavior. This approach preserves stability while expanding interpretive capacity.
-    </p>
-
-    <p>
-      Translation assumes insight already exists within system output but remains misaligned. EVAI
-      emphasizes sequencing, context, and coherence rather than extraction or intervention.
-    </p>
-
-    <h2>Phased Reveal</h2>
-
-    <p>
-      Not all visibility is beneficial at once. EVAI enables phased reveal, allowing observations to
-      surface progressively as conditions support clarity. This prevents noise, preserves focus, and
-      supports meaningful interpretation over time.
-    </p>
-
-    <h2>Active Alignment Windows</h2>
-
-    <p>
-      Certain insights emerge only when systems, timing, and context align. EVAI identifies and
-      operates within these alignment windows, enabling observation at moments when signal coherence
-      is naturally present rather than forced.
-    </p>
-
-    <p>
-      By remaining non-disruptive, EVAI expands visibility across vehicle architectures while
-      maintaining system integrity and operational continuity.
-    </p>
-
-    <footer>
-      © 2025 EVAI — Enterprise Vehicle Architecture Intelligence. All rights reserved.
-    </footer>
-
-  </main>
-</body>
-</html>
-
+    .logo {
+      max-width: 420px;
+      margin-bottom:
