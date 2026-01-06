@@ -17,12 +17,20 @@
       src: url("fonts/Synonym-Regular.otf") format("opentype");
     }
 
-    body {
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
       margin: 0;
+      overflow: hidden; /* NO SCROLLING */
+    }
+
+    body {
       background: #f4f3ef;
       color: #0f1f33;
       font-family: "Synonym", serif;
-      height: 100vh;
       display: flex;
       flex-direction: column;
     }
@@ -34,9 +42,49 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      padding: 40px 20px;
+      padding: 32px 20px;
     }
 
     .logo {
       max-width: 420px;
-      margin-bottom:
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-family: "Alpino", serif;
+      font-size: 40px;
+      margin: 0 0 10px;
+    }
+
+    .subhead {
+      font-size: 14px;
+      letter-spacing: 3px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <img src="evai.svg" alt="EVAI logo" class="logo" />
+
+    <h1>Enterprise Vehicle Architecture Intelligence</h1>
+
+    <div class="subhead">
+      TRANSLATION LAYERS · PHASED REVEAL · ACTIVE ALIGNMENT
+    </div>
+  </main>
+
+  <footer>
+    © 2025 EVAI · Enterprise Vehicle Architecture Intelligence
+  </footer>
+
+</body>
+</html>
